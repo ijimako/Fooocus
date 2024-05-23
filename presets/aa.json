@@ -1,0 +1,47 @@
+{
+    "default_model": "juggernautXL_v7Rundiffusion.safetensors",
+    "default_refiner": "",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
+            0.25
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 3.0,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "ultra realistic close up portrait ((beautiful pale cyberpunk female with heavy black eyeliner)), blue eyes, shaved side haircut, hyper detail, cinematic lighting, magic neon, dark red city, Canon EOS R3, nikon, f/1.4, ISO 200, 1/160s, 8K, RAW, unedited, symmetrical balance, in-frame",
+    "default_prompt_negative": "painting, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, deformed, ugly, blurry, bad anatomy, bad proportions, extra limbs, cloned face, skinny, glitchy, double torso, extra arms, extra hands, mangled fingers, missing lips, ugly face, distorted face, extra legs, anime",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
+    "default_aspect_ratio": "896*1152",
+    "checkpoint_downloads": {
+        "juggernautXL_v7Rundiffusion.safetensors": "https://civitai.com/api/download/models/240840?type=Model&format=SafeTensor&size=full&fp=fp16"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+    }
+}
